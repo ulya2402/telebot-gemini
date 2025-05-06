@@ -24,7 +24,8 @@ GEMINI_MODEL_NAME = 'gemini-1.5-flash-latest'
 GEMINI_SYSTEM_INSTRUCTION = "menjadi orang yang sangat pintar"
 
 # Konfigurasi Perintah (commands)
-# jika ada commands yang lain tambahkan di sini, jangan lupa di daftarkan di bot_handlers.py jangan lupa juga daftarkan di main.py di bagian application.add_handler(CommandHandler(command_name, handler_func)) 
+# jika ada commands yang lain tambahkan di sini, jangan lupa di daftarkan di bot_handlers.py dan di main.py di bagian application.add_handler(CommandHandler(command_name, handler_func))
+
 COMMANDS = {
     "start": "start",               # /start memanggil fungsi start
     "reset": "reset_chat",          # /reset memanggil fungsi reset_chat
