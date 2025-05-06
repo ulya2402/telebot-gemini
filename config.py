@@ -1,8 +1,8 @@
 import os
 import logging
-# from dotenv import load_dotenv --> Tambahkan baris ini jika ingin mendeploy di pythonanywhere.com
+from dotenv import load_dotenv 
 
-# load_dotenv() --> Tambahkan baris ini jika ingin mendeploy di pythonanywhere.com
+load_dotenv() 
 
 # Konfigurasi Kunci API
 # Mengambil dari Replit Secrets atau Environment Variables (ENV)
