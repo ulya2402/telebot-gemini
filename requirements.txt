@@ -1,4 +1,3 @@
 python-telegram-bot 
 google-generativeai
-# Jika kamu berencana menggunakan file .env nantinya, tambahkan:
-# python-dotenv
+python-dotenv
