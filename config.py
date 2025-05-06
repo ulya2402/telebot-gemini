@@ -3,7 +3,7 @@ import logging
 
 # Konfigurasi Kunci API
 # Mengambil dari Replit Secrets atau Environment Variables (ENV)
-# jika kalian ingin mendeploy contoh nya di pythonanywhere, pastkan untuk menambah file .env di folder dan tambahkan variabel TELEGRAM_TOKEN dan GEMINI_API_KEY di dalamnya, jangan lupa juga isi requirements.text dengan python-dotenv agar bisa membaca file .env. Jika sudah install requirements.text dengan pip install -r requirements.text di bash pythonanywhere
+# jika kalian ingin mendeploy contoh nya di pythonanywhere, pastkan untuk menambah file .env di folder dan tambahkan variabel TELEGRAM_TOKEN dan GEMINI_API_KEY di dalamnya, jangan lupa juga isi requirements.txt dengan python-dotenv agar bisa membaca file .env. Jika sudah install requirements.txt dengan pip install -r requirements.txt di terminal pythonanywhere
 
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
