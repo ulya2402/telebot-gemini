@@ -54,8 +54,12 @@ Instruksi ini akan memandu kalian menjalankan bot Telegram menggunakan PythonAny
       ```bash
       pip install -r requirements.txt
       ```
-      
-6.  **Selesai!** Bot kalian sekarang berjalan di PythonAnywhere.
+6. **Jalankan Bot**
+   Pastikan kalian masih berada di direktori proyek utama dan lingkungan virtual (`myenv`) aktif.
+   * Jalankan skrip utama bot:
+      ```bash
+      python main.py
+      ```
 
 ## Konfigurasi Tambahan (Opsional)
 
