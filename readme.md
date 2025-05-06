@@ -1,7 +1,5 @@
 # Telebot-Gemini PythonAnywhere Setup
 
-Instruksi ini akan memandu kalian menjalankan bot Telegram menggunakan PythonAnywhere.
-
 ## Persyaratan
 
 1.  **Akun PythonAnywhere:** kalian memerlukan akun di [PythonAnywhere](https://www.pythonanywhere.com/). Akun gratis sudah cukup untuk bot sederhana.
