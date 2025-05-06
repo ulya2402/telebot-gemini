@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv() 
 
 # Konfigurasi Kunci API
-# Mengambil dari Replit Secrets atau Environment Variables (ENV)
 # jika kalian ingin mendeploy contoh nya di pythonanywhere, pastkan untuk menambah file .env di folder dan tambahkan variabel TELEGRAM_TOKEN dan GEMINI_API_KEY di dalamnya, jangan lupa juga isi requirements.txt dengan python-dotenv agar bisa membaca file .env. Jika sudah install requirements.txt dengan pip install -r requirements.txt di terminal pythonanywhere
 
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
