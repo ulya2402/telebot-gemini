@@ -64,3 +64,4 @@
 
 * **Mengubah Instruksi Sistem Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_SYSTEM_INSTRUCTION`.
 * **Mengganti Model Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_MODEL_NAME`. Pastikan menggunakan nama model yang valid dari [dokumentasi model Gemini](https://ai.google.dev/gemini-api/docs/models).
+* **Menambahkan Perintah di grup:** Edit berkas `config.py` dan tambahakan pada nilai variabel `GROUP_TRIGGER_COMMANDS`. Pastikan menggunakan (/)
