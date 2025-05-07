@@ -34,3 +34,7 @@ COMMANDS = {
     "about": "about",               # /about memanggil fungsi about
     "help": "help_command",         # /help memanggil fungsi help_command
 }
+
+# untuk grupp
+# tambahkan perintah sesuka kalian, Pastikan perintah diawali dengan karakter /
+GROUP_TRIGGER_COMMANDS = ["/ai", "/ask"]
