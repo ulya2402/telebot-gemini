@@ -42,7 +42,7 @@ def main() -> None:
     logger.info(f"Command yang terdaftar: {', '.join(registered_commands)}")
 
     # Daftarkan handler lain (seperti MessageHandler) di bawah ini
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, bot_handlers.handle_message))
+    application.add_handler(MessageHandler(filters.TEXT & (~filters.UpdateType.EDITED_MESSAGE), bot_handlers.handle_message))
     # Jika ada handler lain (CallbackQueryHandler, etc.), daftarkan di sini
 
     
