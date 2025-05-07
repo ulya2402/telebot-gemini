@@ -5,6 +5,7 @@
 1.  **Akun PythonAnywhere:** kalian memerlukan akun di [PythonAnywhere](https://www.pythonanywhere.com/). Akun gratis sudah cukup untuk bot sederhana.
 2.  **Kunci API Telegram:** Dapatkan token bot dari [@BotFather](https://t.me/BotFather) di Telegram.
 3.  **Kunci API Gemini:** Dapatkan kunci API dari [Google AI Studio](https://aistudio.google.com/apikey).
+4.  **Versi python:** harus versi 3.9 keatas
 
 ## Langkah-langkah Penyiapan di PythonAnywhere
 
@@ -63,5 +64,3 @@
 
 * **Mengubah Instruksi Sistem Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_SYSTEM_INSTRUCTION`.
 * **Mengganti Model Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_MODEL_NAME`. Pastikan menggunakan nama model yang valid dari [dokumentasi model Gemini](https://ai.google.dev/gemini-api/docs/models).
-* **Veri python**
-harus versi 3.9 keatas
