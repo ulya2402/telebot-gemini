@@ -26,7 +26,7 @@
 3.  **Buat dan Aktifkan Lingkungan Virtual (Virtual Environment):**
     * Sangat disarankan untuk menggunakan lingkungan virtual:
       ```bash
-      python3.9 -m venv myenv
+      python3.10 -m venv myenv
       ```
     * Aktifkan lingkungan virtual:
       ```bash
@@ -63,3 +63,5 @@
 
 * **Mengubah Instruksi Sistem Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_SYSTEM_INSTRUCTION`.
 * **Mengganti Model Gemini:** Edit berkas `config.py` dan ubah nilai variabel `GEMINI_MODEL_NAME`. Pastikan menggunakan nama model yang valid dari [dokumentasi model Gemini](https://ai.google.dev/gemini-api/docs/models).
+* **Veri python**
+harus versi 3.9 keatas
