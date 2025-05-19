@@ -7,7 +7,7 @@
 3.  **Kunci API Gemini:** Dapatkan kunci API dari [Google AI Studio](https://aistudio.google.com/apikey).
 4.  **Versi python:** harus versi 3.9 keatas
 
-## Langkah-langkah Penyiapan di PythonAnywhere
+## Langkah-langkah Penyiapan di PythonAnywhere atau di VPS 
 
 1.  **Buka Konsol Bash:**
     * Login ke akun PythonAnywhere.
@@ -17,7 +17,7 @@
 2.  **Clone Repository:**
     * Di dalam konsol Bash, clone repository ini:
       ```bash
-      git clone https://github.com/ulya2402/telebot-gemini
+      git clone https://github.com/ulya2402/telebot-gemini.git
       ```
     * Masuk ke direktori proyek:
       ```bash
